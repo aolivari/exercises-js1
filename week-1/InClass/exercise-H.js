@@ -9,3 +9,5 @@ console.log(cmil);
 
 vacuna100("España",46940000,2690457);
 vacuna100("Chile",20000000,2375725);
+
+
