@@ -12,3 +12,5 @@ function uyquelargo(name) {
 }
 
 console.log(uyquelargo("jose antonio"))
+
+//completado
