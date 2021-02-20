@@ -1,12 +1,13 @@
-// Function definition
-function año0(age) {
-    return 2021-(age);
+//año nacimiento
+function año1981(edad) {
+    return 2021-edad
 }
 
-// Function definition
-function añonacimiento(name, age) {
-    const año = año0(age);
-    const message = "my nombre es " + name + " y nací el año " +(año)+ " o sea tengo "+age+" Años";
-    return message;
+function mensake(nombre,edad) {
+    const naci = año1981(edad)
+    var mensaje = "Hola me llamo "+nombre+" Naci el año "+naci+" tengo "+edad+" años"
+    return mensaje
+    
 }
-console.log(añonacimiento("toño",39))
+
+console.log(mensake("toño",39))
