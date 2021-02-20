@@ -16,7 +16,7 @@ function percentage (cmentores) {
     let mentors =cmentores
     let students=(65*cmentores)/35
     console.log ("Percentage Students:"+Math.round(students/(students+mentors)*100)+"%")
-    return ("Percentage Mentors:"+Math.round(mentors/(students+mentors)*100)+"%")
+    return "Percentage Mentors:"+Math.round(mentors/(students+mentors)*100)+"%"
    
 
 
