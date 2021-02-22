@@ -1,7 +1,9 @@
 // Add comments to explain what this function does. You're meant to use Google!
-function getNumber() {
-  return Math.random() * 10;
+function getNumber(number) {
+  return Math.random(number) * 10;
 }
+
+console.log getNumber(5)
 
 // Add comments to explain what this function does. You're meant to use Google!
 function s(w1, w2) {
