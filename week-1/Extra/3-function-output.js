@@ -1,18 +1,24 @@
-// Add comments to explain what this function does. You're meant to use Google!
+// multiply by ten an pseudo random number
 function getNumber(number) {
   return Math.random(number) * 10;
 }
 
-console.log getNumber(5)
+// console.log (getNumber(1))
 
-// Add comments to explain what this function does. You're meant to use Google!
+// concate two variants in only one sentence (is same to use +)
 function s(w1, w2) {
+  // console.log(w1+w2)
   return w1.concat(w2);
 }
+
+console.log (s("perro","gato"))
+
 
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
+  return firstWord.concat(" ",secondWord," ",thirdWord)
+  
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
@@ -45,6 +51,9 @@ test(
 );
 test(
   "concatenate function - case 3 works",
-  concatenate('I', 'am', 13),
-  "I am 13"
+  concatenate('I', 'am', 39),
+  "I am 39"
 );
+
+
+//completed

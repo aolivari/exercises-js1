@@ -5,7 +5,10 @@
   Sales tax is 20% of the price of the product
 */
 
-function calculateSalesTax() {}
+function calculateSalesTax(amount) {
+  let taxes1 = (amount *0.20)+amount
+ return taxes1
+}
 
 /*
   CURRENCY FORMATTING
@@ -17,7 +20,12 @@ function calculateSalesTax() {}
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency() {}
+function addTaxAndFormatCurrency(amount) {
+let  casi1 = calculateSalesTax(amount)
+return (new Intl.NumberFormat("en-GB", {style: "currency", currency: "GBP"}).format(casi1))
+}
+
+
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
@@ -44,3 +52,6 @@ test("calculateSalesTax function - case 3 works", calculateSalesTax(34), 40.8)
 test("addTaxAndFormatCurrency function - case 1 works", addTaxAndFormatCurrency(15), "£18.00")
 test("addTaxAndFormatCurrency function - case 2 works", addTaxAndFormatCurrency(17.5), "£21.00")
 test("addTaxAndFormatCurrency function - case 3 works", addTaxAndFormatCurrency(34), "£40.80")
+
+
+//hay que joderse esta si que costo completed
