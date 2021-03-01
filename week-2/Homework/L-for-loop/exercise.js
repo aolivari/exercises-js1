@@ -9,7 +9,15 @@
 let n = 10;
 
 function sumTillNum(num){
-	//your code here
-}
+	var suma = []
+	 for (let num=0; num<=10; num++){
+		suma.push(num)
+	 }
+	 return suma.join(" + ");
+	}
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+
+
+
+//completed

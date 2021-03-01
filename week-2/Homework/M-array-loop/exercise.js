@@ -4,6 +4,8 @@
 */
 
 
+
+
 const daysOfWeek = [
   "Monday",
   "Tuesday",
@@ -11,5 +13,18 @@ const daysOfWeek = [
   "Thursday",
   "Friday",
   "Saturday",
-  "Sunday",
-];
+  "Sunday",]
+
+  
+  for (let i = 0; i < daysOfWeek.length; i++) {
+      var Tdays = daysOfWeek[i].startsWith("T");
+      var message = daysOfWeek[i] + " empieza con T";
+          if (Tdays===true){
+          console.log(message)
+        }
+      
+    
+    }
+     
+    
+  //completed

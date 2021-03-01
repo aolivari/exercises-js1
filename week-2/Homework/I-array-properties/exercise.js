@@ -6,7 +6,7 @@
 */
 
 function isEmpty(arr) {
-  return; // complete this statement
+  return arr==""; // complete this statement
 }
 
 /* 
@@ -24,3 +24,4 @@ console.log(isEmpty(names));
   false
   true
 */
+//completed

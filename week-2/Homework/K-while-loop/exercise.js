@@ -9,6 +9,14 @@
 let n = 10;
 
 function sumTillNum(num){
+	var suma = []
+	 for (let num=0; num<=10; num++){
+		suma.push(num)
+	 }
+	 return suma.join(" + ");
+	}
+
+function sumTillNum(num){
 	//your code here
 }
 

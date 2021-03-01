@@ -9,7 +9,8 @@
 */
 
 function containsCode(sentence) {
-
+    // var palabra = "code"
+    return sentence.includes("code")
 }
 
 /* 
@@ -30,3 +31,4 @@ console.log("'" + sentence3 + "': " + containsCode(sentence3))
     'draw your future': false
     'design your future': false
     */
+//completed
