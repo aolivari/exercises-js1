@@ -7,7 +7,7 @@ function mayus(param) {
 
 //funcion para mapear un array en mayusculas
 function strin(param){
-   return param.map(mayus)
+       return param.map(mayus).sort()
 }
  
 
