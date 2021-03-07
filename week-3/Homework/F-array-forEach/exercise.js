@@ -9,6 +9,28 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+
+
+function cuatica(num){
+  let Buzz = "Buzz"
+  let Fizz = "Fizz"
+  if (num%5===0 && num%3===0 ){
+    return console.log(Fizz+Buzz)
+  }
+  if (num%3===0){
+    return console.log(Fizz)
+  }
+  if (num%5===0){
+    return console.log(Buzz)
+  }
+  else
+  return console.log(num)
+} 
+
+
+
+arr.forEach(cuatica)
+
 /* EXPECTED OUTPUT */
 
 /*
@@ -28,3 +50,4 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 14
 'FizzBuzz'
 */
+//completed

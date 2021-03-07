@@ -9,7 +9,7 @@ function sistaki(arr,persona) {
     message1 = "Found me!"
     message2 = "Haven't found me :("
     
-    if (arr.find(ton => persona === ton)){
+    if (arr.find((ton) => persona === ton)){
         return message1
     }
     else {
