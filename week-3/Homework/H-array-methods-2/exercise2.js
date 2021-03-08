@@ -7,7 +7,13 @@
   Tip: use the string method .split() and the array method .join()
 */
 
-function capitalise(str) {}
+function capitalise(str) {
+  let pff =str.slice(1,)
+  if (name.includes(str)){
+    return str[0].toUpperCase()+pff
+  }
+  return str[0].toUpperCase()+pff
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -23,3 +29,4 @@ console.log(capitalise("hello"));
   Daniel
   Hello
 */
+//completed
